@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm12 : CSS3 advanced</title>
+		<style>
+			
+			#hm12 {
+                font-size: 1em;
+				position: fixed;
+				top: 420px;
+				left: 200px;
+				width: 100px;
+				padding: 1px;
+				background: rgb(235, 212, 135);
+				color: black;
+			}
+            div {
+				display: inline-block;
+				position: absolute;
+				border: 1px solid lightgray;
+			}
+			#M {
+				display: inline-block;
+				position: absolute;
+				height: 20px;
+				width: 15px;
+				background: skyblue;
+                color: red;
+			}
+            #E {
+				display: inline-block; 
+				position: absolute; 
+				height: 20px;
+				width: 15px;
+				background: orange;
+                color: brown;
+			}
+            #R {
+				display: inline-block; 
+				position: absolute;
+				height: 20px;
+				width: 15px;
+				background: purple;
+                color: whitesmoke;
+			}
+            #R2 {
+				display: inline-block; 
+				position: absolute;
+				height: 20px;
+				width: 15px;
+				background: skyblue;
+                color: red;
+			}
+            #Y {
+				display: inline-block; 
+				position: absolute; 
+				height: 20px;
+				width: 15px;
+				background: yellow;
+                color: green;
+			}
+            #X {
+				display: inline-block; 
+				position: absolute; 
+				height: 20px;
+				width: 15px;
+				background: red;
+                color: white;
+			}
+            #U {
+				display: inline-block;
+				position: absolute;
+				height: 20px;
+				width: 15px;
+				background: white;
+                color: black;
+			}
+            #M2 {
+				display: inline-block;
+				position: absolute;
+				height: 20px;
+				width: 15px;
+				background: yellow;
+                color: green;
+			}
+            #A {
+				display: inline-block;
+				position: absolute; 
+				height: 20px;
+				width: 15px;
+				background: orange;
+                color: brown;
+			}
+            #S {
+				display: inline-block; 
+				position: absolute;
+				height: 20px;
+				width: 15px;
+				background: yellow;
+                color: black;
+			}
+			
+
+			div {
+                background-size : 300px 300px;
+                background-image : url("media/Card.gif");
+                background-repeat : no-repeat;
+                background-position : left center;}
+
+				span {
+				transition: font-size 1s;
+			}
+			span:hover {
+				font-size: 300%;
+				
+			}
+			@keyframes bomb {
+			from{
+				font-size: 100%;
+			}
+			to{
+				font-size: 200%;
+			}
+			}
+			h5{
+				animation-name: bomb;
+				animation-duration: 3s;
+				animation-iteration-count: 1;
+                
+			}
+			p#xmflwkdtlr1{
+				position: absolute;
+				top: 400px;
+				left: 100px;
+			}
+			p#xmflwkdtlr2{
+				position: absolute;
+				top: 150px;
+				left: 200px;
+			}
+			p#xmflwkdtlr3{
+				position: absolute;
+				top: 230px;
+				left: 50px;
+			}
+
+
+			div#hm12:hover { transform : scale(4,3); }
+
+ 
+
+		</style>
+		<script></script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h2>Merry Christmas!</h2>
+        <hr>
+		<p><audio src="media/Music.mp3" controls autoplay loop> 
+                브라우저가 audio 태그를 지원하지 않습니다. </audio>  </p>
+        <div>
+		<img src="media/christmastree.png"
+		width="300" height="300"
+        alt="크리스마스 트리">
+		
+    </div>
+        <div>
+        <p style="left: 100px; top: 50px;", id="M">
+            <span>M</span>
+        </p>
+        <p style="left: 120px; top: 65px;", id="E">
+            <span>A</span>
+        </p>
+        <p style="left: 140px; top: 80px;", id="R">
+            <span>R</span>
+        </p>
+        <p style="left:160px; top:95px", id="R2">
+            <span>R</span>
+        </p>
+        <p style="left:180px; top:110px", id="Y">
+            <span>Y</span>
+        </p>
+        <p style="left:200px; top:125px", id="X">
+            <span>X</span>
+        </p>
+        <p style="left:180px; top:140px", id="U">
+            <span>-</span>
+        </p>
+        <p style="left:160px; top:155px", id="M2">
+            <span>M</span>
+        </p>
+        <p style="left:140px; top:170px", id="A">
+            <span>A</span>
+        </p>
+        <p style="left:120px; top:185px", id="S">
+            <span>S</span>
+        </p>
+    </div>
+	
+		
+		<p id="fixed">
+			<h5><div id="#1">Merry Christmas</div></h5>
+        </p>
+		<div id="hm12">
+			hm12 최재형
+		</div>
+		<p id="xmflwkdtlr1">
+			<img src="media/트리 장식1.PNG" alt="안됨" width="30"; height="40";>
+		</p>
+		<p id="xmflwkdtlr2">
+			<img src="media/루돌프.PNG" alt="안됨" width="80"; height="120";>
+		</p>
+		<p id="xmflwkdtlr3">
+			<img src="media/진저브레드맨.png" alt="안됨" width="80"; height="90";>
+		</p>
+
+		
+	</body>
+
+</html>
+
