@@ -1,6 +1,5 @@
 #hm12의 홈페이지 V2
 ## 나의 홈피에 추가된 내용과 방법들
-### 추가된 html 파일
 - 시멘틱 태그를 이용해 화면 layout을 구성하였다.
 - header를 HM12's Hompage로 설정하고, 하이퍼링크를 이용해 내 github와 연결시켰다.
 - nav에 About hm12, My favorites, hm12 club, hm12 invitation 들로 제목들을 설정하였다.
