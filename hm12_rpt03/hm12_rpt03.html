@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm12 : My Homepage </title>
+		<style>
+			html, body {
+				margin: 0;
+				padding: 0;
+				height: 100%;
+			}
+			.header {
+				width: 100%;
+				height: 10%;
+				background: rgb(255, 195, 83);
+			}
+			.nav {
+				width: 18%;
+				height: 80%;
+				float: left;
+				background: rgb(255, 195, 83);
+			}
+			.section {
+				width: 64%;
+				height: 80%;
+				float: left;
+				background: rgb(255, 195, 83);
+			}
+			.aside {
+				width: 18%;
+				height: 80%;
+				float: right;
+				background: rgb(255, 195, 83);
+			}
+			.footer {
+				width: 100%;
+				height: 10%;
+				clear: both;
+				background: rgb(255, 195, 83);
+			}
+
+		</style>
+		<script>
+			function query() {
+			  var ret = confirm("최재형님의 Github로 이동하시겠습니까?");
+			  return ret;
+			}
+		  </script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<header class="header">
+			<h1 style="text-align: center; font-size: 3em;"><a href="https://github.com/june6297/hm12" target="blank" onclick="return query()"> HM12's Homepage </a></h1>
+		</header>
+
+		<nav class="nav">
+			<ul>
+				<li>
+					<h2 style="font-size: 1.8em;">About hm12</h2>
+					<ul>
+						<li>
+							<a style="font-size: 1.3em;" href="hm12_who.html" target="myframe">Who is hm12?</a>
+						</li>
+						<li>
+							<a style="font-size: 1.3em;" href="hm12_life.html" target="myframe">hm12's daily life</a></li>
+					</ul>
+				</li>
+				<li>
+					<h2 style="font-size: 1.8em;">My Favorites</h2>
+                    <ul>
+                        <li>
+                        <a style="font-size: 1.3em;" href="hm12_best.html" target="myframe">My Best</a>
+                        </li>
+                    </ul>
+					
+				</li>
+				<li>
+					<h2 style="font-size: 1.8em;">hm12 Club</h2>
+					<ul>
+						<li>
+							<a style="font-size: 1.3em;" href="hm12_form.html" target="myframe">동호회 모집 안내</a>
+						</li>
+																			
+					</ul>
+				</li>
+                <li>
+					<h2 style="font-size: 1.8em;">hm12 Invitation</h2>
+					<ul>
+						<li>
+							<a style="font-size: 1.3em;" href="hm12_card.html" target="myframe">X-Mas card</a>
+						</li>
+						<li>
+							<a style="font-size: 1.3em;" href="hm12_invitation.html" target="myframe">X-Mas 파티 초대장</a>
+						</li>													
+					</ul>
+                </li>
+                <li>
+                    <h2 style="font-size: 1.8em;">hm12 Calculat</h2>
+                    <ul>
+                        <li>
+                            <a style="font-size: 1.3em;" href="hm12_calcu.html" target="myframe">Calculator</a>
+                        </li>
+                    </ul>
+			</ul>
+		</nav>
+
+		<section class="section" id="main">
+
+			<article>
+				<iframe src="hm12_who.html" name="myframe" width="100%" height="700">
+
+				</iframe>
+
+			</article>
+
+		</section>
+		<aside class="aside">
+            <h2 style="text-align: center; font-size: 2em;">Link</h2>
+            
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_Webtoon.html" target="myframe">웹툰</a></h2>
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_News.html" target="myframe">오늘의 뉴스</a></h2>
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_Weather.html" target="myframe">일기예보</a></h2>	
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_Exchange rate.html" target="myframe">실시간 환율</a></h2>
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_TV.html" target="myframe">TV 편성표</a></h2>
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_Covid19.html" target="myframe">코로나 현황</a></h2>
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_Self-Check.html" target="myframe">자가진단</a></h2>
+
+            <h2 style="text-align: center; font-size: 2em;"><a href="hm12_Mask.html" target="myframe">마스크 정보</a></h2>
+		</aside>
+        <footer class="footer">
+			<p style="text-align: center; font-size: 3em; color: purple; font-style: initial; font-weight: 600;">
+				20192597 최재형
+			</p>
+			<p style="position: absolute; bottom: 0px; left: 0px;"><audio src="media/Title.mp3" controls autoplay loop> 
+                브라우저가 audio 태그를 지원하지 않습니다. </audio>  </p>
+		</footer>
+	</body>
+
+</html>
+

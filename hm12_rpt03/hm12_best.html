@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head><meta charset="utf-8">
+    <title>HM12 Favorite</title>
+    <script>
+      function bookImage() {
+        var sel = document.getElementById("book");
+        var img = document.getElementById("bookimage");
+        img.src = sel.options[sel.selectedIndex].value;
+      }
+      function movieImage() {
+        var sel = document.getElementById("movie");
+        var img = document.getElementById("movieimage");
+        img.src = sel.options[sel.selectedIndex].value;
+      }
+      function query() {
+			  var ret = confirm("'규현 - 하루종일' 을(를) 감상하시겠습니까?");
+			  return ret;
+			}
+      function query2() {
+			  var ret = confirm("'빌리어코스티 - 사랑하나봐' 을(를) 감상하시겠습니까?");
+			  return ret;
+			}
+      function query3() {
+			  var ret = confirm("'아이유 - Voice Mail' 을(를) 감상하시겠습니까?");
+			  return ret;
+			}
+      function query4() {
+			  var ret = confirm("'박원 - 이럴거면 헤어지지 말았어야지' 을(를) 감상하시겠습니까?");
+			  return ret;
+			}
+      function query5() {
+			  var ret = confirm("크레이지아케이드 홈페이지로 이동하시겠습니까?");
+			  return ret;
+			}
+      function query6() {
+			  var ret = confirm("메이플스토리 홈페이지로 이동하시겠습니까?");
+			  return ret;
+			}
+      function query7() {
+			  var ret = confirm("테일즈런너 홈페이지로 이동하시겠습니까?");
+			  return ret;
+			}
+      function query8() {
+			  var ret = confirm("리그오브레전드 홈페이지로 이동하시겠습니까?");
+			  return ret;
+			}
+    </script>
+	</head>
+	<body>
+		<h2>Best </h2>
+        <hr>
+        <form>  <p style="font-size: 1.3em; font-weight: 600;">추천하는 책</p>
+          <select id="book" onchange="bookImage()" style=" font-size: 1em;">
+            <option value="media/Book1.png">1. HTML5 </option
+            ><option value="media/Book2.png">2. C언어 </option
+            ><option value="media/Book3.png">3. 자바 </option></select
+          >
+        </form>
+        <img id="bookimage" src="media/Book1.PNG" alt="" />
+
+		<form>
+            <br><p style="font-size: 1.3em; font-weight: 600;">추천하는 영화</p> 
+            <select id="movie" onchange="movieImage()" style=" font-size: 1em;"><br>
+              <option  value="media/Movie1.jpg">1. 몽상가들 </option
+              ><option value="media/Movie2.png">2. 라라랜드 </option
+              ><option value="media/Movie3.jpg">3. 캐치미이프유캔 </option></select
+            >
+        </form>
+        <img id="movieimage" src="media/Movie1.jpg" alt="" />
+        <details>
+			<summary style="font-size: 1.2em; font-weight: 500;">추천하는 노래</summary>
+			
+			<p>
+                <table>
+        
+                    <thead>
+                      <tr>
+                        <th>규현 - 하루종일</th>
+                        <th>빌리어코스티 - 사랑하나봐</th>
+                        <th>아이유 - Voice Mail</th>
+                        <th>박원 - 이럴거면 헤어지지 말았어야지</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                            <a href="https://www.youtube.com/watch?v=8sQDLuER8Ow" target="blank" onclick="return query()">
+                            <input type="image" src="media/하루종일.png" alt="이미지 버튼" width="280" height="280"></a>
+                        </td>
+                        <td>
+                            <a href="https://www.youtube.com/watch?v=iKBusrFXMTM" target="blank" onclick="return query2()">
+                            <input type="image" src="media/bily.jpg" alt="이미지 버튼" width="280" height="280"></a>
+                        </td>
+                        <td>
+                            <a href="https://www.youtube.com/watch?v=PBgv9Ey-Hb8" target="blank" onclick="return query3()">
+                            <input type="image" src="media/IU.jpg" alt="이미지 버튼" width="280" height="280"></a>
+                        </td>
+                        <td>
+                          <a href="https://www.youtube.com/watch?v=qWPhkd98oFI" target="blank" onclick="return query4()">
+                          <input type="image" src="media/Park.jpg" alt="이미지 버튼" width="280" height="280"></a>
+                      </td>
+                      </tr>
+                    </tbody>
+                  </table>
+			</p>
+        </details>
+        
+        <details>
+			<summary style="font-size: 1.2em; font-weight: 500;">추천하는 게임</summary>
+			
+			<p>
+                <table>
+        
+                    <thead>
+                      <tr>
+                        <th>크레이지아케이드</th>
+                        <th>메이플스토리</th>
+                        <th>테일즈런너</th>
+                        <th>리그오브레전드</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>
+                            <a href="https://ca.nexon.com/Home/Index" target="blank" onclick="return query5()">
+                            <input type="image" src="media/crazy.jpg" alt="이미지 버튼" width="280" height="230"></a>
+                        </td>
+                        <td>
+                            <a href="https://maplestory.nexon.com/Home/Main" target="blank" onclick="return query6()">
+                            <input type="image" src="media/Maple.png" alt="이미지 버튼" width="280" height="230"></a>
+                        </td>
+                        <td>
+                            <a href="http://tr.sgp.nexon.com/index.asp" target="blank" onclick="return query7()">
+                            <input type="image" src="media/runner.jpg" alt="이미지 버튼" width="280" height="230"></a>
+                        </td>
+                        <td>
+                          <a href="https://kr.leagueoflegends.com/ko-kr/" target="blank" onclick="return query8()">
+                          <input type="image" src="media/League.jpg" alt="이미지 버튼" width="280" height="230"></a>
+                      </td>
+                      </tr>
+                    </tbody>
+                  </table>
+			</p>
+        </details>
+	</body>
+</html>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>HM12's daily life</title>
+		<style>
+            #diary
+            {
+                position: absolute;
+                top: 150px;
+                left: 290px;
+                font-weight: 600;
+                font-style: initial;
+            }
+            div {
+                background-size : 500px 300px ;
+                background-image : url("media/백지.PNG");
+                background-repeat : no-repeat;
+                background-position : left center;}
+
+            #일기{
+                position: absolute;
+                background-color: white;
+                top: 135px;
+                left: 500px;
+                font-size: 1.3em;
+                font-weight: 900;
+            }
+
+            #qorwl
+            {
+                position: absolute;
+                top: 150px;
+                left: 290px;
+                
+            }
+          
+		</style>
+		<script>
+			function query() {
+			  var ret = confirm("최재형님의 시간표로 이동하시겠습니까?");
+			  return ret;
+			}
+		  </script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h2>HM12's daily life</h2>
+        <hr>
+        <p style="position: absolute; left: 450px; font-size: 1.3em; font-weight: 900;">
+            <a href="hm12_Schedule.html" target="myframe" onclick="return query()"> 나의 1학기 시간표 </a>
+        </p>
+        
+       
+       <div id="diary" style="font-size: 1.05em; font-weight: 500; ">
+        <br><br>&nbsp;평상시에는 마산에서 <a href="http://bus.inje.ac.kr/">통학차</a>를 이용해 등교를 하고<br>
+        &nbsp;거의 모든 강의를 <a href="https://www.inje.ac.kr/kor/about-inje/campus-map.asp">장영실관</a>에서 듣는다. 
+       <br>&nbsp;하지만 요즘은 비대면 수업이 진행되면서 집에서 실시간으로 <br>&nbsp;강의를 듣고 과제를 하고 있다. 
+       당연히 과제가 <a style="color: red;">적으면 좋겠지만</a>,<br>&nbsp;내 바람과는 달리 
+       <a style="color: red;">너무 많아서</a> 하루종일 과제만 하고 있는 <br>&nbsp;상황이다. 
+       모르는 것을 질문해도 바로바로 답을 해주시는 것도 <br>&nbsp;아니라 <a style="color: red;">
+        어려움</a>을 겪고 있다... 물론 바로바로 답해주시는 교수님도 <br>&nbsp;계시다!
+       어쨋든 하루빨리 코로나가 <a style="color: red;">진정 되었으면</a> 좋겠는데, 
+       <br>&nbsp;이태원 클럽에서 <a style="color: red;">확진자</a>가 또 나왔단다.
+       이제 괜찮아지는가보다 <br>&nbsp;싶었는데 아직 밖에 나가는 것은 <a style="color: red;">
+        위험해</a> 보인다. <br>&nbsp;그래도 다들 <a style="color: red;">힘내자</a>!!
+
+       </div>
+
+       <p id="일기" >
+           일기
+       </p>
+       
+
+
+	</body>
+
+</html>
+

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    color: rgb(199, 63, 86);
+    width : 100px;
+    height: 40px;
+}
+th, td {
+    padding: 20px;
+}
+th {
+    text-align: center;
+}
+</style>
+<script> 
+function startScroll(interval) { 
+  setInterval("autoScroll()", interval); 
+  }
+
+  function autoScroll() {
+     window.scrollBy(0,50); 
+     } 
+</script>
+</head>
+<body onload="startScroll(1000)">
+<center>
+ <h1>나의 1학기 시간표</h1>
+</center>
+<table style="width:100%; background-color: lavenderblush;" >
+ 
+  <tr>
+    <th> </th>
+    <th style="font-size: 1.3em;">월</th>
+    <th style="font-size: 1.3em;">화</th>
+    <th style="font-size: 1.3em;">수</th>
+    <th style="font-size: 1.3em;">목</th>
+    <th style="font-size: 1.3em;">금</th>
+  </tr>
+    <tr>
+    <th style="font-size: 1.3em;">1교시</th>
+    <td></td>
+    <td style="background-color: rgb(255, 227, 237); font-size: 1.3em;" rowspan="4">JAVA 프로그래밍 </td>
+    <td></td>
+    <td style = "background : Pink ; font-size: 1.3em;" rowspan="2">알고리즘 기초</td>
+    <td></td>
+   </tr>
+    <tr>
+    <th style="font-size: 1.3em;">2교시</th>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+    
+    
+  </tr>
+    <tr>
+    <th style="font-size: 1.3em;">3교시</th>
+    <td style = "background : pink; font-size: 1.3em;" rowspan="4">시뮬레이션 개론</td>
+    <td> </td>
+    <td style = "background : rgb(255, 216, 223); font-size: 1.3em;" rowspan="2">대학영어 IV</td>
+    <td> </td>
+    
+  </tr>
+   <tr>
+    <th style="font-size: 1.3em;">4교시</th>
+    <td> </td>
+    <td> </td>
+  </tr>
+   <tr>
+    <th style="font-size: 1.3em;">5교시</th>
+    <td style = "background : rgb(252, 190, 183); font-size: 1.3em;" >알고리즘 기초</td>
+    <td ></td>
+    <td ></td>
+    <td style = "background : rgb(255, 216, 223); font-size: 1.3em;" rowspan="2" >파이썬 활용</td>
+  </tr>
+   <tr>
+    <th style="font-size: 1.3em;">6교시</th>
+    <td> </td>
+    <td style = "background : rgb(255, 216, 223); font-size: 1.3em;" rowspan="4" >아두이노 기초 </td>
+    <td style = "background : rgb(255, 167, 158); font-size: 1.3em;" rowspan="4" >HTML5 </td>
+  </tr>
+   <tr>
+    <th style="font-size: 1.3em;">7교시</th>
+    <td> </td>
+    <td> </td>
+    <td> </td>
+  </tr>
+  <tr>
+   <th style="font-size: 1.3em;">8교시</th>
+   <td ></td>
+   <td> </td>
+   <td> </td>
+  </tr>
+  <tr>
+    <th style="font-size: 1.3em;">9교시</th>
+    <td ></td>
+    <td> </td>
+    <td> </td>
+   </tr>
+
+</table>
+
+</body>
+</html>
+

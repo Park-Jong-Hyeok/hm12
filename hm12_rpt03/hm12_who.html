@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<!-- 이 부분은 주석문입니다. 웹 브라우저는 주석을 화면에 출력하지 않습니다. -->
+<html>
+	<head>
+		<!-- 문서제목, 자바스크립트 코드, CSS 스타일 정의, 메타데이터정의 -->
+		<meta charset="utf-8">
+		<title>hm12 : Semantic tag and form</title>
+		<style>
+		</style>
+		<script>
+			function query() {
+			  var ret = confirm("최재형님의 Github로 이동하시겠습니까?");
+			  return ret;
+			}
+			function change() {
+			  var p = document.getElementById("l");
+			  p.innerHTML = "제가 보는 드라마입니다.<br><img src='media/drama.jpg' width='250' hihght='300'><img src='media/drama2.jpg' width='250' hihght='300'><img src='media/drama3.jpg' width='250' hihght='300'><img src='media/drama4.jpg' width='250' hihght='300'> ";
+			}
+		  </script>
+	</head>
+
+	<body>
+		<!-- 문서의 본문 텍스트, 이미지, 테이블, 자바스크립트 코드, 동영상 등 -->
+		<h2>
+			<a href="https://github.com/june6297" target="blank" onclick="return query()">
+			  Who I am?</a>
+		  </h2>
+
+		<ul style="font-weight:900; font-size: 1.2em;">
+			<li>이름: 최재형</li><br>
+			<li>학번: 20192597</li><br>
+			<li>연락처: 010-5150-****</li><br>
+			<li>이메일주소: june6297@naver.com</li><br>
+			<li>계좌번호: 33*3-1*-10*44*0 카카오뱅크</li>
+			<li><p id="l" style="color:black" onclick="change()">
+				취미: 드라마 시청<span style="color:red">(여기를 클릭하세요!)</span>
+			  </p></li>
+			
+		  </ul>
+	
+	</body>
+
+</html>
+
